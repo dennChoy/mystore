@@ -1,0 +1,4 @@
+<div class="products--grid">
+  <!-- [product]="product" es la estructura que se recibe desde el componente hijo. products es el listado que se definió en este mismo componente -->
+  <app-product [product]="product" *ngFor="let product of products"></app-product>
+</div>
